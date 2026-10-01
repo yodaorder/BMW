@@ -1,0 +1,25 @@
+/* BMW Night Background - Vencord */
+
+:root {
+    --custom-background: url("https://i.imgur.com/RLcaZi4.png");
+}
+
+/* Discord background */
+body {
+    background-image: var(--custom-background) !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important;
+}
+
+/* Make Discord transparent */
+#app-mount {
+    background: transparent !important;
+}
+
+/* Dark glass effect */
+[class*="chatContent"],
+[class*="sidebar"],
+[class*="container"] {
+    background-color: rgba(0, 0, 0, 0.45) !important;
+}
